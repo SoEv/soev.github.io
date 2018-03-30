@@ -1,0 +1,340 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Техн. заметки · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-katex/katex.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-etoc/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="styles/website.css">
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    
+    <link rel="prev" href="glava-1.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        <li class="header">СоЭв. ком.</li>
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Предисловие (README)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="glava-1.html">
+            
+                <a href="glava-1.html">
+            
+                    
+                    Глава 1
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Разное</li>
+        
+        
+    
+        <li class="chapter active" data-level="2.1" data-path="tech_notes.html">
+            
+                <a href="tech_notes.html">
+            
+                    
+                    Техн. заметки
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >Техн. заметки</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <p>&#x422;&#x435;&#x445;&#x43D;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x438;&#x435; &#x437;&#x430;&#x43C;&#x435;&#x442;&#x43A;&#x438;</p>
+<ul>
+<li>&#x43E;&#x444;&#x438;&#x446;. &#x434;&#x43E;&#x43A;&#x443;&#x43C;&#x435;&#x43D;&#x442;&#x430;&#x446;&#x438;&#x44F;: <a href="https://toolchain.gitbook.com/structure.html" target="_blank">toolchain.gitbook.com/structure.html</a> </li>
+<li><strong>shell:</strong> create PDF<pre><code># Generate a PDF file
+$ gitbook pdf ./ ./mybook.pdf
+</code></pre></li>
+<li><p><strong>shell:</strong> build the static website</p>
+<pre><code>$ gitbook build
+</code></pre></li>
+<li><p>&#x43F;&#x435;&#x440;&#x435;&#x445;&#x43E;&#x434;&#x438;&#x43C; &#x432; &#x43F;&#x430;&#x43F;&#x43A;&#x443; _book</p>
+<pre><code class="lang-bash">  <span class="hljs-comment"># &#x421;&#x43E;&#x437;&#x434;&#x430;&#x451;&#x43C; &#x441;&#x43E;&#x432;&#x435;&#x440;&#x448;&#x435;&#x43D;&#x43D;&#x43E; &#x43D;&#x43E;&#x432;&#x44B;&#x439; &#x440;&#x435;&#x43F;&#x43E;&#x437;&#x438;&#x442;&#x43E;&#x440;&#x438;&#x439; &#x441; &#x447;&#x438;&#x441;&#x442;&#x43E;&#x439; &#x438;&#x441;&#x442;&#x43E;&#x440;&#x438;&#x435;&#x439;</span>
+  git init
+
+  <span class="hljs-comment"># &#x443;&#x43A;&#x430;&#x437;&#x44B;&#x432;&#x430;&#x435;&#x43C; &#x43D;&#x430;&#x448; &#x440;&#x435;&#x43F;&#x43E;&#x437;&#x438;&#x442;&#x43E;&#x440;&#x438;&#x439;</span>
+  git remote add origin https://SoEv@bitbucket.org/SoEv/gitbk.git
+
+  <span class="hljs-comment"># &#x41F;&#x43E;&#x441;&#x43C;&#x43E;&#x442;&#x440;&#x438;&#x43C;, &#x43A;&#x430;&#x43A;&#x438;&#x435; &#x443; &#x43D;&#x430;&#x441; &#x432;&#x435;&#x442;&#x43A;&#x438;, &#x438; &#x43D;&#x435;&#x442; &#x43B;&#x438; &#x442;&#x430;&#x43C; &#x432;&#x435;&#x442;&#x43A;&#x438; &#x441; &#x438;&#x43C;&#x435;&#x43D;&#x435;&#x43C; `book`</span>
+  git branch
+
+  <span class="hljs-comment"># &#x441;&#x43E;&#x437;&#x434;&#x430;&#x451;&#x43C; &#x432; &#x43B;&#x43E;&#x43A;&#x430;&#x43B;&#x44C;&#x43D;&#x43E;&#x43C; &#x440;&#x435;&#x43F;&#x43E; &#x43D;&#x43E;&#x432;&#x443;&#x44E; &#x432;&#x435;&#x442;&#x43A;&#x443; `book`</span>
+  git branch book
+
+  <span class="hljs-comment"># &#x43F;&#x435;&#x440;&#x435;&#x43A;&#x43B;&#x44E;&#x447;&#x430;&#x435;&#x43C;&#x441;&#x44F; &#x432; &#x43B;&#x43E;&#x43A;&#x430;&#x43B;&#x44C;&#x43D;&#x43E;&#x43C; &#x440;&#x435;&#x43F;&#x43E; &#x43D;&#x430; &#x432;&#x435;&#x442;&#x43A;&#x443; `book`</span>
+  git checkout book
+
+  <span class="hljs-comment"># &#x432; &#x43B;&#x43E;&#x43A;&#x430;&#x43B;&#x44C;&#x43D;&#x43E;&#x43C; &#x440;&#x435;&#x43F;&#x43E; &#x443;&#x434;&#x430;&#x43B;&#x44F;&#x435;&#x43C; `master`</span>
+  git branch -D master
+
+  <span class="hljs-comment"># &#x435;&#x441;&#x43B;&#x438; &#x43D;&#x430; GitHub &#x43F;&#x43E; &#x443;&#x43C;&#x43E;&#x43B;&#x447;&#x430;&#x43D;&#x438;&#x44E; `master`, &#x442;&#x43E; &#x43D;&#x430; &#x43F;&#x43E;&#x43F;&#x44B;&#x442;&#x43A;&#x443; &#x443;&#x434;&#x430;&#x43B;&#x438;&#x442;&#x44C;: </span>
+  <span class="hljs-comment"># `git push origin :master` &#x43D;&#x430; GitHub, &#x43F;&#x43E;&#x43B;&#x443;&#x447;&#x438;&#x43C; &#x43E;&#x442;&#x43A;&#x430;&#x437;.</span>
+
+  <span class="hljs-comment"># &#x43F;&#x43E;&#x43A;&#x430; &#x43D;&#x435; &#x43D;&#x430;&#x439;&#x434;&#x435;&#x43D; &#x434;&#x440;&#x443;&#x433;&#x43E;&#x439; &#x441;&#x43F;&#x43E;&#x441;&#x43E;&#x431;. &#x41D;&#x430; &#x44D;&#x442;&#x43E;&#x43C; &#x448;&#x430;&#x433;&#x435; &#x443;&#x436;&#x43D;&#x43E; &#x438;&#x434;&#x442;&#x438; &#x43D;&#x430; GitHub &#x438; &#x441;&#x434;&#x435;&#x43B;&#x430;&#x442;&#x44C;</span>
+  <span class="hljs-comment"># &#x432;&#x435;&#x442;&#x43A;&#x443; &#x43F;&#x43E; &#x443;&#x43C;&#x43E;&#x43B;&#x447;&#x430;&#x43D;&#x438;&#x44E; &#x43D;&#x435; `master`, &#x430; `book`</span>
+  <span class="hljs-comment"># https://github.com/SoEv/soev.github.io/settings/branches  </span>
+
+  <span class="hljs-comment"># &#x43F;&#x43E;&#x441;&#x43B;&#x435; &#x44D;&#x442;&#x43E;&#x433;&#x43E; &#x43A;&#x43E;&#x43C;&#x430;&#x43D;&#x434;&#x430; &#x443;&#x434;&#x430;&#x43B;&#x438;&#x442;&#x44C; &#x432;&#x435;&#x442;&#x43A;&#x443; &#x43D;&#x430; GitHub &#x43F;&#x440;&#x43E;&#x445;&#x43E;&#x434;&#x438;&#x442; &#x447;&#x438;&#x441;&#x442;&#x43E;:</span>
+  git push origin --delete master
+
+  <span class="hljs-comment"># &#x437;&#x430;&#x43F;&#x438;&#x445;&#x438;&#x432;&#x430;&#x435;&#x43C; &#x432; &#x440;&#x435;&#x43F;&#x43E;&#x437;&#x438;&#x442;&#x43E;&#x440;&#x438;&#x439; &#x43D;&#x430; GitHub &#x43F;&#x43E;&#x441;&#x442;&#x440;&#x43E;&#x435;&#x43D;&#x43D;&#x43E;&#x435; &#x434;&#x435;&#x440;&#x435;&#x432;&#x43E; &#x441;&#x430;&#x439;&#x442;&#x430;</span>
+  git push -u origin book
+
+  <span class="hljs-comment"># &#x43F;&#x435;&#x440;&#x435;&#x438;&#x43C;&#x435;&#x43D;&#x43E;&#x432;&#x44B;&#x432;&#x430;&#x435;&#x43C; &#x432; &#x43B;&#x438;&#x447;&#x43D;&#x43E;&#x43C; &#x440;&#x435;&#x43F;&#x43E; book &#x432; master</span>
+  git branch -m book master
+
+  <span class="hljs-comment"># &#x421;&#x43E;&#x441;&#x442;&#x43E;&#x44F;&#x43D;&#x438;&#x435;:</span>
+  <span class="hljs-comment"># &#x43D;&#x430; GitHub 2 branches, &#x43F;&#x43E; &#x443;&#x43C;&#x43E;&#x43B;&#x447;&#x430;&#x43D;&#x438;&#x44E; &#x43D;&#x430;&#x437;&#x43D;&#x430;&#x447;&#x435;&#x43D;&#x430; &#x432;&#x435;&#x442;&#x43A;&#x430; `book`</span>
+  <span class="hljs-comment"># &#x432;&#x435;&#x442;&#x43A;&#x430; `master` &#x43F;&#x440;&#x438;&#x441;&#x443;&#x442;&#x441;&#x442;&#x432;&#x443;&#x435;&#x442;, &#x441;&#x430;&#x439;&#x442; &#x440;&#x430;&#x431;&#x43E;&#x442;&#x430;&#x435;&#x442;</span>
+  <span class="hljs-comment">#</span>
+  <span class="hljs-comment"># &#x43B;&#x43E;&#x43A;&#x430;&#x43B;&#x44C;&#x43D;&#x43E;: 1 branch, `master`</span>
+
+  <span class="hljs-comment"># &#x443;&#x434;&#x430;&#x43B;&#x438;&#x442;&#x44C; &#x432;&#x435;&#x442;&#x43A;&#x443; `book` &#x43D;&#x430; GitHub &#x43D;&#x435; &#x43F;&#x43E;&#x43B;&#x443;&#x447;&#x438;&#x442;&#x441;&#x44F; &#x442;&#x435;&#x43F;&#x435;&#x440;&#x44C;, &#x43F;&#x43E; &#x442;&#x43E;&#x439; &#x436;&#x435; &#x43F;&#x440;&#x438;&#x447;&#x438;&#x43D;&#x435;, &#x447;&#x442;&#x43E;</span>
+  <span class="hljs-comment"># &#x438; `master`: &#x43E;&#x43D;&#x430; &#x441;&#x442;&#x43E;&#x438;&#x442; &#x43F;&#x43E; &#x443;&#x43C;&#x43E;&#x43B;&#x447;&#x430;&#x43D;&#x438;&#x44E; &#x438; &#x43E;&#x431;&#x441;&#x43B;&#x443;&#x436;&#x438;&#x432;&#x430;&#x435;&#x442; web-&#x438;&#x43D;&#x442;&#x435;&#x440;&#x444;&#x435;&#x439;&#x441; GitHub</span>
+  <span class="hljs-comment"># git push origin --delete book</span>
+
+  <span class="hljs-comment"># &#x41C;&#x43E;&#x436;&#x43D;&#x43E; &#x43F;&#x43E;&#x441;&#x43C;&#x43E;&#x442;&#x440;&#x435;&#x442;&#x44C;, &#x43A;&#x430;&#x43A;&#x438;&#x435; &#x432;&#x435;&#x442;&#x43A;&#x438; &#x435;&#x441;&#x442;&#x44C; &#x43D;&#x430; GitHub &#x438; &#x43A;&#x430;&#x43A;&#x438;&#x435; &#x443; &#x43D;&#x430;&#x441; &#x43B;&#x43E;&#x43A;&#x430;&#x43B;&#x44C;&#x43D;&#x43E;:</span>
+  git branch <span class="hljs-_">-a</span>
+
+  <span class="hljs-comment"># &#x441;&#x43E;&#x437;&#x434;&#x430;&#x451;&#x43C; &#x43D;&#x430; GitHub &#x43D;&#x43E;&#x432;&#x443;&#x44E; &#x432;&#x435;&#x442;&#x43A;&#x443; `__tempo` &#x438; &#x434;&#x435;&#x43B;&#x430;&#x435;&#x43C; &#x435;&#x451; &#x43F;&#x43E; &#x443;&#x43C;&#x43E;&#x43B;&#x447;&#x430;&#x43D;&#x438;&#x44E;.</span>
+  <span class="hljs-comment"># &#x43F;&#x43E;&#x441;&#x43B;&#x435; &#x44D;&#x442;&#x43E;&#x433;&#x43E; &#x43A;&#x43E;&#x43C;&#x430;&#x43D;&#x434;&#x430; &#x443;&#x434;&#x430;&#x43B;&#x438;&#x442;&#x44C; &#x432;&#x435;&#x442;&#x43A;&#x443; &#x43D;&#x430; GitHub &#x43F;&#x440;&#x43E;&#x445;&#x43E;&#x434;&#x438;&#x442; &#x447;&#x438;&#x441;&#x442;&#x43E;:</span>
+  git push origin --delete book
+
+  <span class="hljs-comment"># &#x421;&#x43E;&#x441;&#x442;&#x43E;&#x44F;&#x43D;&#x438;&#x435;:</span>
+  <span class="hljs-comment"># * master</span>
+  <span class="hljs-comment"># remotes/origin/__tempo</span>
+  <span class="hljs-comment"># remotes/origin/master</span>
+</code></pre>
+</li>
+</ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="glava-1.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Глава 1">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Техн. заметки","level":"2.1","depth":1,"previous":{"title":"Глава 1","level":"1.2","depth":1,"path":"glava-1.md","ref":"glava-1.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["katex","etoc"],"pluginsConfig":{"katex":{},"etoc":{"h2lb":3,"header":1,"maxdepth":4,"mindepth":3,"notoc":false},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"tech_notes.md","mtime":"2018-03-30T03:17:44.936Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-03-30T03:21:22.003Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-etoc/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
